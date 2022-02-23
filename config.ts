@@ -36,14 +36,6 @@ export const networks: NetworksUserConfig = {
         gasPrice: 20000000000, // 1 gwei
         gasMultiplier: 1.5,
     },
-
-    rinkeby: {
-        accounts: rinkebyAccount,
-        gas: 'auto',
-        hardfork: 'london', 
-        url: process.env.RINEKBY_API,
-    },
-
     mainnet: {
         accounts: rinkebyAccount,
         gas: 'auto',
